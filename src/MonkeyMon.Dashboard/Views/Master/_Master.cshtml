@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="/content/css/monkeymon.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div ng-app="monkeymon">
+            @RenderBody()
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src="/content/app/monkeymon.js"></script>
+        <script src="/content/app/features/configuration.js"></script>
+    </body>
+</html>

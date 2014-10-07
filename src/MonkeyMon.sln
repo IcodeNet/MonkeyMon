@@ -5,6 +5,14 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Dashboard", "MonkeyMon.Dashboard\MonkeyMon.Dashboard.csproj", "{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Core", "MonkeyMon.Core\MonkeyMon.Core.csproj", "{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Tests", "0. Tests", "{A33D4BCC-0A3F-4855-BE6B-EFC15FC882FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Clients", "1. Clients", "{D310A64F-580F-45FC-930C-579048A29DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business", "2. Business", "{D68CF85F-2A03-4A94-A3AA-984C3152CBAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,16 @@ Global
 		{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845} = {D310A64F-580F-45FC-930C-579048A29DB8}
+		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B} = {D68CF85F-2A03-4A94-A3AA-984C3152CBAA}
 	EndGlobalSection
 EndGlobal
