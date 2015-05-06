@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Dashboard", "MonkeyMon.Dashboard\MonkeyMon.Dashboard.csproj", "{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Core", "MonkeyMon.Core\MonkeyMon.Core.csproj", "{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}"
@@ -12,6 +10,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Clients", "1. Clients", "{D310A64F-580F-45FC-930C-579048A29DB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business", "2. Business", "{D68CF85F-2A03-4A94-A3AA-984C3152CBAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. DeveloperTests", "0. DeveloperTests", "{4ABB4465-AEA0-40B0-8CC3-7C0E2CAEFE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Tests.DeveloperTests", "MonkeyMon.Tests.DeveloperTests\MonkeyMon.Tests.DeveloperTests.csproj", "{5FA1ED3E-B41C-4A2F-9D79-999F666206DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Scheduling", "MonkeyMon.Scheduling\MonkeyMon.Scheduling.csproj", "{C492AB03-38AF-4199-BEB5-CC627B939B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMon.Gathering", "MonkeyMon.Gathering\MonkeyMon.Gathering.csproj", "{812994B2-6F67-4860-AC0F-9949638200CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA1ED3E-B41C-4A2F-9D79-999F666206DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA1ED3E-B41C-4A2F-9D79-999F666206DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA1ED3E-B41C-4A2F-9D79-999F666206DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA1ED3E-B41C-4A2F-9D79-999F666206DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C492AB03-38AF-4199-BEB5-CC627B939B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C492AB03-38AF-4199-BEB5-CC627B939B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C492AB03-38AF-4199-BEB5-CC627B939B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C492AB03-38AF-4199-BEB5-CC627B939B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812994B2-6F67-4860-AC0F-9949638200CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812994B2-6F67-4860-AC0F-9949638200CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812994B2-6F67-4860-AC0F-9949638200CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812994B2-6F67-4860-AC0F-9949638200CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3EB14C87-2FC9-487A-B3E7-BBB2E0B8C845} = {D310A64F-580F-45FC-930C-579048A29DB8}
 		{7CFFC676-4CA7-4CAB-BF4F-D80DDEA0E75B} = {D68CF85F-2A03-4A94-A3AA-984C3152CBAA}
+		{C492AB03-38AF-4199-BEB5-CC627B939B27} = {D68CF85F-2A03-4A94-A3AA-984C3152CBAA}
+		{812994B2-6F67-4860-AC0F-9949638200CD} = {D68CF85F-2A03-4A94-A3AA-984C3152CBAA}
+		{4ABB4465-AEA0-40B0-8CC3-7C0E2CAEFE8D} = {A33D4BCC-0A3F-4855-BE6B-EFC15FC882FE}
+		{5FA1ED3E-B41C-4A2F-9D79-999F666206DE} = {4ABB4465-AEA0-40B0-8CC3-7C0E2CAEFE8D}
 	EndGlobalSection
 EndGlobal
